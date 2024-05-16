@@ -18,6 +18,7 @@ import banner2 from "rollup-plugin-banner2";
 const NO_INLINE = new Set([
   "@babel/core",
   "@babel/parser",
+  "babel-plugin-react-compiler",
   "chalk",
   "fast-glob",
   "ora",
